@@ -9,8 +9,46 @@
 @media (min-width:641px)  { 
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
  }
-@media (min-width:961px)  { 
+@media (max-width:768px)  { 
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .mainDisplayContainer{
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .logoBig{
+    width: 100%;
+    height: 320px;
+    background-color: palevioletred;
+  }
+  
+  .infoServices{
+    width: 100%;
+    height: 320px;
+    background-color: yellow;
+  }
+  
+  .locationPicture{
+    width: 100%;
+    height: 320px;
+    background-color: palevioletred;
+  }
+  .bigHuellitas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 220px;
+    width: 250px;
+    height: 280px;
+}
+
+.myFooterText {
+    color: white;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
 
  }
 @media (min-width:1025px) {
